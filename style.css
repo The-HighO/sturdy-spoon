@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'General Sans', sans-serif;
+}
+:root{
+    --primary-color:#0055BA;
+    --secondary-color:#60a8ff;
+    --backgound:#fafafa;
+}
+.main{
+    background-color: var(--backgound);
+    height: 100vh;
+}
+.profileContainer{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+}
+.imageContainer{
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgSubCont{
+    aspect-ratio: 1/1;
+    height: 7rem;
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+    background-repeat: no-repeat;
+}
+.detailsContainer{
+    padding: 1.5rem;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+}
+.personalInfo, .locationDetails{
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0.5rem;
+}
+.heading{
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+.containers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e6e6e6;
+}
+.placeholder{
+    font-size: 1rem;
+    font-weight: 450;
+    color: rgb(95, 93, 93);
+}
+.styling{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}

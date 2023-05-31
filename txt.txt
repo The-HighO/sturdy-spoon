@@ -1,0 +1,10 @@
+consume an api, use the response to create a user profile card,
+
+primary info:
+image yes
+title 
+fullname yes
+phone yes
+email yes
+
+https://randmuser.me.api.
